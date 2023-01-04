@@ -1,0 +1,212 @@
+body {
+    background-color: #1dabf8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    background-color: #ffffff;
+    width: 450px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+    padding-top: 40px;
+    color: #3610c1cd;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un, .pass{
+width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.enter {
+    padding-top: 40px;
+}
+
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+}
+
+.submit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #b02727, #fb4043);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+#forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #050505;
+    padding-top: 10px;
+}
+
+#sign_in{
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #050505;
+  padding-top: 5px;
+}
+
+.sign_input {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #3581f3;
+    text-decoration: none
+}
+
+#buttons{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#forgot_button, #sign_button{
+  background-color:transparent;
+  display: inline-block;
+}
+
+#forgot_close, #sign_close{
+  background-color:transparent;
+  border: none;
+  float: right;
+}
+
+.submit_email, .submit_ID_PSW{
+  text-align: center;
+  display: inline-block;
+  transform: none;
+  color: #3610c1cd;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.input_content{
+  margin-bottom: 6px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+
+
+.forgot_background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  z-index: -1;
+  opacity: 0;
+}
+
+.forgot {
+  opacity: 1;
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.forgot_window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.forgot_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+
+  width: auto;
+  height: auto;
+
+  transform: translate(-50%, -40%);
+}
+
+.forgot .forgot_popup {
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+.sign_background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  z-index: -1;
+  opacity: 0;
+}
+
+.sign {
+  opacity: 1;
+  z-index: 100;
+  transition: all 0.5s;
+}
+
+.sign_window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.sign_popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+
+  width: auto;
+  height: auto;
+
+  transform: translate(-50%, -40%);
+}
+
+.sign .sign_popup {
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
